@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Workshop_part2</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="title_activity_dashboard_screen">DashboardScreen</string>
+</resources>

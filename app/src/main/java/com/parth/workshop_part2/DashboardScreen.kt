@@ -1,0 +1,52 @@
+package com.parth.workshop_part2
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.rememberNavController
+import com.parth.workshop_part2.Screens.One
+import com.parth.workshop_part2.Screens.Two
+import com.parth.workshop_part2.ui.theme.Workshop_part2Theme
+
+class DashboardScreen : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            val navController = rememberNavController()
+            Workshop_part2Theme {
+                NavHost(
+                    navController =  navController,
+                    startDestination = "two",
+
+                ) {
+                    composable("ONE"){
+                        One(navController)
+                    }
+
+                    composable("two"){
+                        Two(navController)
+                    }
+                    }
+
+
+            }
+        }
+    }
+}
+
