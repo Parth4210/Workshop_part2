@@ -16,6 +16,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.parth.workshop_part2.ui.theme.AnimatedBtn2
 import com.parth.workshop_part2.ui.theme.Workshop_part2Theme
 
 class LoginActivity2 : ComponentActivity() {
@@ -28,7 +29,7 @@ class LoginActivity2 : ComponentActivity() {
                     Text(text = "Login Page",
                         modifier = Modifier.padding(innerPadding)
                             .clickable {
-                                val intent = Intent(this, DashboardScreen::class.java)
+                                val intent = Intent(this, AnimatedBtn2::class.java)
                                 startActivity(intent)
                             },
                         fontSize = 15.sp,

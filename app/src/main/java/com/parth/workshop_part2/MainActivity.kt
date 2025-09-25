@@ -14,6 +14,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.parth.workshop_part2.ui.theme.AnimatedBtn
+import com.parth.workshop_part2.ui.theme.AnimatedBtn2
 import com.parth.workshop_part2.ui.theme.Workshop_part2Theme
 import kotlin.jvm.java
 
@@ -28,7 +30,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .padding(innerPadding)
                             .clickable {
-                                val intent = Intent(this, LoginActivity3::class.java)
+                                val intent = Intent(this, AnimatedBtn2::class.java)
                                 startActivity(intent)
                             },
                         text = "hello",

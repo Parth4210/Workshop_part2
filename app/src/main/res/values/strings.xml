@@ -3,4 +3,6 @@
     <string name="title_activity_login2">LoginActivity2</string>
     <string name="title_activity_dashboard_screen">DashboardScreen</string>
     <string name="title_activity_login3">LoginActivity3</string>
+    <string name="title_activity_animated_btn">AnimatedBtn</string>
+    <string name="title_activity_animated_btn2">AnimatedBtn2</string>
 </resources>

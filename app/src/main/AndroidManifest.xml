@@ -12,6 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Workshop_part2">
         <activity
+            android:name=".ui.theme.AnimatedBtn2"
+            android:exported="false"
+            android:label="@string/title_activity_animated_btn2"
+            android:theme="@style/Theme.Workshop_part2" />
+        <activity
+            android:name=".ui.theme.AnimatedBtn"
+            android:exported="false"
+            android:label="@string/title_activity_animated_btn"
+            android:theme="@style/Theme.Workshop_part2" />
+        <activity
             android:name=".LoginActivity3"
             android:exported="false"
             android:label="@string/title_activity_login3"

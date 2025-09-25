@@ -21,6 +21,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.parth.workshop_part2.Screens.One
 import com.parth.workshop_part2.Screens.Two
+import com.parth.workshop_part2.ui.theme.AnimatedBtn
 import com.parth.workshop_part2.ui.theme.Workshop_part2Theme
 
 class DashboardScreen : ComponentActivity() {
