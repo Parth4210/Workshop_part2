@@ -28,7 +28,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier
                             .padding(innerPadding)
                             .clickable {
-                                val intent = Intent(this, LoginActivity2::class.java)
+                                val intent = Intent(this, LoginActivity3::class.java)
                                 startActivity(intent)
                             },
                         text = "hello",

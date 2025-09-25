@@ -12,6 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Workshop_part2">
         <activity
+            android:name=".LoginActivity3"
+            android:exported="false"
+            android:label="@string/title_activity_login3"
+            android:theme="@style/Theme.Workshop_part2" />
+        <activity
             android:name=".DashboardScreen"
             android:exported="false"
             android:label="@string/title_activity_dashboard_screen"
